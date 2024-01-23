@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(6, 238, 255);
+            margin: 0px;
+        }
+
+        header {
+            font-size: 20px;
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: blue;
+            padding: 3px;
+            box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.438);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 35px 35px 10px 10px;
+            box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.418);
+        }
+
+        footer {
+            background-color: blue;
+            color: aliceblue;
+            text-align: center;
+            margin: 0px;
+            padding: 5px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        article {
+            background-color: rgb(185, 246, 248);
+            padding: 10px;
+        }
+
+        article > aside {
+            background-color: rgb(152, 243, 247);
+            width: fit-content;
+        }
+
+        #bola {
+            background-color: aliceblue;
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            border-radius: 50%;
+            box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.418);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id=" noticias">
+            <article>
+                <h2>
+                    Inter maior do Sul
+                </h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam earum odit magnam mollitia veniam pariatur possimus? Eos iste fugit dignissimos dicta itaque natus incidunt, recusandae aut distinctio molestiae suscipit. Fugit.</p>
+                <aside>
+                    <p>Escrito por Ian Vítor</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <div id="bola"></div>
+    <footer>
+        <p>Desenvolvido por Ian Vítor</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: green;
+        }
+
+        a::after {
+            content: ' 🔗'
+        }
+
+        .especial::after {
+            content: '🔗🔗'
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Personalizando links
+    </h1>
+    <ul>
+        <li><a target="_blank" rel="external" href="https://www.facebook.com/ian.antonietti/?locale=pt_BR">Facebook</a></li>
+        <li><a target="_blank" rel="external" href="https://www.youtube.com/@ijogagamesminecraftpe3031">Youtube</a></li>
+        <li><a target="_blank" rel="external" href="https://twitter.com/IanAntonietti" class="especial">Twitter</a></li>
+    </ul>
+</body>
+</html>

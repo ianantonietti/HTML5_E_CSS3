@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(37, 37, 37);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+.banana {
+     text-align: center;
+}
+.html {
+    width: 300px;
+    height: auto;
+}
+.js {
+    width: 300px;
+    height: auto;
+}
+.hardware {
+    width: 300px;
+    height: auto;
+}
+.python {
+    width: 300px;
+    height: auto;
+}
