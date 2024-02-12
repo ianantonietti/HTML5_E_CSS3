@@ -85,21 +85,20 @@ section > p {
     background-color: white;
 }
 
-#fundo1 {
+.imagem {
     background-attachment: fixed;
     background-size: cover;
-    background-position: center center;
-    background-image: url(imagens/background001.jpg);
     color: white;
     box-shadow: inset 0px 0px 20px 18px rgba(0, 0, 0, 0.418);
+    background-position: center center;
 }
 
-#fundo2 {
-    background-attachment: fixed;
-    background-size: cover;
+#fundo1 {
+    background-image: url(imagens/background001.jpg);
+}
+
+#fundo2 {   
     background-image: url(imagens/background002.jpg);
-    color: white;
-    box-shadow: inset 0px 0px 20px 18px rgba(0, 0, 0, 0.418);
 }
 
 #fundo1 > p {
@@ -119,5 +118,6 @@ footer {
     height: 2em;
     padding-top: 10px;
     font-family: var(--fonte-normal);
+    max-width: 400px;
 }
 
