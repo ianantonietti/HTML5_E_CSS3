@@ -8,19 +8,38 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
-        
+
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
+
         td, th {
             border: 1px solid black;
             padding: 10px;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         thead, tfoot {
-            background-color: grey;
+            background-color: rgb(59, 58, 58);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(59, 58, 58);
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
         }
 
         td.num {
@@ -34,10 +53,13 @@
         Uso de tabelas grandes
     </h1>
     <table>
+        <caption>
+            População das unidades federativas
+        </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -152,10 +174,15 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="num"><strong>203 062 512</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum blanditiis laboriosam error similique alias. Animi ipsum ducimus atque amet dolore? Quae error temporibus quaerat eveniet fugit voluptatibus accusamus, vel sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, laboriosam aliquam itaque fugit eum, debitis neque recusandae odit eligendi ut fugiat consequatur distinctio esse veritatis corporis ad dolorem quae magni! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil laboriosam illum exercitationem delectus voluptatem, soluta mollitia ipsam porro placeat odio, blanditiis repudiandae nemo molestias animi eum sunt laudantium asperiores sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nihil quas dolores quaerat magni dolor cumque aliquid exercitationem alias quia sunt, suscipit itaque ducimus maxime illo distinctio placeat aut? Aliquid?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum blanditiis laboriosam error similique alias. Animi ipsum ducimus atque amet dolore? Quae error temporibus quaerat eveniet fugit voluptatibus accusamus, vel sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, laboriosam aliquam itaque fugit eum, debitis neque recusandae odit eligendi ut fugiat consequatur distinctio esse veritatis corporis ad dolorem quae magni! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil laboriosam illum exercitationem delectus voluptatem, soluta mollitia ipsam porro placeat odio, blanditiis repudiandae nemo molestias animi eum sunt laudantium asperiores sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nihil quas dolores quaerat magni dolor cumque aliquid exercitationem alias quia sunt, suscipit itaque ducimus maxime illo distinctio placeat aut? Aliquid?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum blanditiis laboriosam error similique alias. Animi ipsum ducimus atque amet dolore? Quae error temporibus quaerat eveniet fugit voluptatibus accusamus, vel sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, laboriosam aliquam itaque fugit eum, debitis neque recusandae odit eligendi ut fugiat consequatur distinctio esse veritatis corporis ad dolorem quae magni! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil laboriosam illum exercitationem delectus voluptatem, soluta mollitia ipsam porro placeat odio, blanditiis repudiandae nemo molestias animi eum sunt laudantium asperiores sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nihil quas dolores quaerat magni dolor cumque aliquid exercitationem alias quia sunt, suscipit itaque ducimus maxime illo distinctio placeat aut? Aliquid?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum blanditiis laboriosam error similique alias. Animi ipsum ducimus atque amet dolore? Quae error temporibus quaerat eveniet fugit voluptatibus accusamus, vel sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, laboriosam aliquam itaque fugit eum, debitis neque recusandae odit eligendi ut fugiat consequatur distinctio esse veritatis corporis ad dolorem quae magni! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil laboriosam illum exercitationem delectus voluptatem, soluta mollitia ipsam porro placeat odio, blanditiis repudiandae nemo molestias animi eum sunt laudantium asperiores sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nihil quas dolores quaerat magni dolor cumque aliquid exercitationem alias quia sunt, suscipit itaque ducimus maxime illo distinctio placeat aut? Aliquid?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum blanditiis laboriosam error similique alias. Animi ipsum ducimus atque amet dolore? Quae error temporibus quaerat eveniet fugit voluptatibus accusamus, vel sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, laboriosam aliquam itaque fugit eum, debitis neque recusandae odit eligendi ut fugiat consequatur distinctio esse veritatis corporis ad dolorem quae magni! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil laboriosam illum exercitationem delectus voluptatem, soluta mollitia ipsam porro placeat odio, blanditiis repudiandae nemo molestias animi eum sunt laudantium asperiores sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nihil quas dolores quaerat magni dolor cumque aliquid exercitationem alias quia sunt, suscipit itaque ducimus maxime illo distinctio placeat aut? Aliquid?</p>
 </body>
 </html>
